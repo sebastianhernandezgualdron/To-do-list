@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #B5A9E8;
+}
+.cabeza{
+    margin: 2%;
+}
+
+.cabeza h1{
+    margin: 1% 1% 1% 0%;
+    font-size:50px;
+}
+.form_sec{
+    width: 100%;
+
+    padding-bottom: auto;
+}
+.form {
+    display: inline-block;
+    width: 95%;
+    height: 60px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.form label{
+    width: 50%;
+    margin-right: 50%;
+    font-size: 25px;
+}
+
+.form input{
+    padding: 0.6%;
+    padding-right: 77%;
+    border-radius: 5px;
+    background-color: #C9E4FF;
+}
+.form button{
+    background-color: #F392FF;
+    color: black;
+    padding: 0.6%;
+    font-size: 15px;
+    margin-left: 6.2px;
+    border-radius: 7px;
+}
+.contadores{
+width: 48%;
+float: left;
+margin: 0.2%;
+margin-top: 2%;
+margin-left: 2%;
+
+}
+.lista_sec{
+    width: 49%;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    height: 200px;
+}
+.contadores p{
+    display: inline-block;
+    margin-right: 50%;
+    font-size: x-large;
+    
+
+}
+
+
+.lista_sec h2{
+    display: inline-block;
+    width: 10%;
+
+
+}
+
+.lista_tareas{
+    display: inline-block;
+    width: 80%;
+    list-style: none;
+    text-align: left;
+    
+
+
+}
+
+
+.lista_tareas input[type=checkbox]
+{
+  -webkit-transform: scale(1.7);
+  padding: 10px;
+    float:right;
+    margin-top: 7px;
+    
+}
+
+.lista_id{
+    display: inline-block;
+    list-style: none;   
+    width: 10%;
+    
+
+}
+.tareas{
+    padding-right: 70%;
+}
+.listas{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+}
+
+.incompleta{
+    text-decoration: line-through;
+    
+}
+
+.eliminar{
+   
+    font-size: 25px;
+    -webkit-text-stroke:1.4px black;
+    text-decoration: none;
+    color: red;
+    font-weight: 900;
+    float: right;
+    width: 10%;
+    text-align: right;
+
+}
+
+.tareas_lista{
+
+    font-size: 25px;
+    margin-right: 20px;
+}
